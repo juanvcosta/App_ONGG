@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.App_Ext">
+        <activity
+            android:name=".HomeMenuActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+
+        <activity android:name=".OilsActivity" android:exported="false" />
+        <activity android:name=".OilDetailActivity" android:exported="false" />
+        <activity android:name=".LavandaOleoActivity" android:exported="false" />
+        <activity android:name=".CamomilaOleoActivity" android:exported="false" />
+        <activity android:name=".SandaloActivity" android:exported="false" />
+        <activity android:name=".VetiverActivity" android:exported="false" />
+        <activity android:name=".RosaActivity" android:exported="false" />
+        <activity android:name=".BergamotaActivity" android:exported="false" />
+        <activity android:name=".AlecrimOleoActivity" android:exported="false" />
+        <activity android:name=".EucaliptoActivity" android:exported="false" />
+        <activity android:name=".HortelaPimentaActivity" android:exported="false" />
+        <activity android:name=".MelaleucaActivity" android:exported="false" />
+        <activity android:name=".JasmimOleoActivity" android:exported="false" />
+        <activity android:name=".LaranjaDoceActivity" android:exported="false" />
+        <activity android:name=".TeaDetailActivity" android:exported="false" />
+        <activity android:name=".CreateTeaActivity" android:exported="false" />
+        <activity android:name=".CamomilaActivity" android:exported="false" />
+        <activity android:name=".ChaVerdeActivity" android:exported="false" />
+        <activity android:name=".HortelaActivity" android:exported="false" />
+        <activity android:name=".ErvaDoceActivity" android:exported="false" />
+        <activity android:name=".BoldoActivity" android:exported="false" />
+        <activity android:name=".GengibreActivity" android:exported="false" />
+        <activity android:name=".HibiscoActivity" android:exported="false" />
+        <activity android:name=".CapimLobaoActivity" android:exported="false" />
+        <activity android:name=".ChaMateActivity" android:exported="false" />
+        <activity android:name=".MelissaActivity" android:exported="false" />
+        <activity android:name=".JasmimActivity" android:exported="false" />
+        <activity android:name=".AnisActivity" android:exported="false" />
+        <activity android:name=".CanelaActivity" android:exported="false" />
+        <activity android:name=".CarquejaActivity" android:exported="false" />
+        <activity android:name=".AlecrimActivity" android:exported="false" />
+        <activity android:name=".MarcelaActivity" android:exported="false" />
+    </application>
+
+</manifest>
